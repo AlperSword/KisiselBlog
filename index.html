@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alper Kılıç Kişisel Blog</title>
+    <link rel="icon" href="image/developer_5338322.png" type="dev" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Özel İmleç -->
+    <div class="cursor"></div>
+
+    <!-- Üst Menü -->
+    <header>
+        <nav>
+            <div class="logo">Alper Kılıç</div>
+            <ul class="nav-links">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımda</a></li>
+                <li><a href="#services">Hizmetler</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Kahraman (Hero) Bölümü -->
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1>Merhaba, Ben <span class="typing"></span></h1>
+            <p>Alper Kılıç</p>
+            <a href="#services" class="btn">Hizmetlerim</a>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <h2>Hakkımda</h2>
+        <p>Tuzla Mesleki ve Teknik Anadolu Lisesi Veri Tabanı Programcılığı bölümünden mezun oldum. Lise stajımı Koltest firmasında Web Geliştirme üzerine başarıyla tamamladım. Ardından, Sertek Gemi şirketinde Full Stack Developer olarak görev aldım ve web projelerinde hem front-end hem de back-end geliştirme süreçlerine katkıda bulundum.
+            Yeteneklerim arasında SQL, HTML, CSS ve C# yer almakta. Veri tabanı yönetimi, .NET, web tasarımı ve yazılım geliştirme konularında bir altyapıya sahibim. Şu anda İstanbul Okan Üniversitesi'nde Bilgisayar Programcılığı bölümünde öğrenim görüyor ve yazılım geliştirme becerilerimi daha da ileriye taşımayı hedefliyorum</p>
+    </section>
+
+    <!-- Zaman Tüneli Bölümü -->
+    <section id="timeline" class="section">
+        <h2>Hikayem</h2>
+        <div class="timeline">
+            <div class="timeline-item" data-year="2023">
+                <div class="timeline-content">
+                    <h3>🎓 Liseden Mezun Oldum</h3>
+                    <p>Veri tabanı, yazılım ve web tasarımı temellerini burada attım. SQL, HTML, CSS ve C# ile tanıştım.</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-year="2023">
+                <div class="timeline-content">
+                    <h3>👨‍💻 İlk İş Deneyimim</h3>
+                    <p>HTML ve CSS ile şirket içi web sayfaları oluşturdum. Gerçek projelerde ekip içinde ilk stajımda tecrübe edindim.</p>
+                </div>
+            </div>
+            <div class="timeline-item" data-year="2024">
+                <div class="timeline-content">
+                    <h3>🚢 Full Stack Macerası</h3>
+                    <p>Sertek Gemi - Full Stack Developer olarak görev aldım. .NET, veritabanı yönetimi ve kullanıcı arayüzü geliştirme işlerine katkı sağladım.</p>
+                </div>
+            </div>  
+            <div class="timeline-item" data-year="2024">
+                <div class="timeline-content">
+                    <h3>🎓 Üniversiteye Başladım </h3>
+                    <p>İstanbul Okan Üniversitesi - Bilgisayar Programcılığı
+                    Yazılım serüvenim devam ediyor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Hizmetler Bölümü -->
+    <section id="services" class="section">
+        <h2>Hizmetlerim</h2>
+        <div class="service-grid">
+            <div class="service-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true">
+                <i class="fas fa-code"></i>
+                <h3>Web Geliştirme</h3>
+                <p>Modern, hızlı ve duyarlı web siteleri tasarlıyorum.</p>
+            </div>
+            <div class="service-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true">
+                <i class="fas fa-paint-brush"></i>
+                <h3>UI/UX Tasarım</h3>
+                <p>Kullanıcı dostu ve estetik arayüzler yaratıyorum.</p>
+            </div>
+            <div class="service-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true">
+                <i class="fas fa-robot"></i>
+                <h3>AI Entegrasyonu</h3>
+                <p>Web sitelerine yapay zeka özellikleri ekliyorum.</p>
+            </div>
+            <div class="service-card" data-tilt data-tilt-max="15" data-tilt-speed="400" data-tilt-glare="true">
+                <i class="fa-solid fa-database"></i>
+<h3>Veri Tabanı Yönetimi</h3>
+                <p>Veri modelleme, analizi  üzerine çalışıyorum.</p>
+            </div>   
+
+
+            
+        </div>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section id="contact" class="section">
+        <h2>İletişime Geç</h2>
+        <form action="https://formspree.io/f/xjkwqkej"
+        method="POST"
+       id="contact-form">
+            <input type="text" name="name" placeholder="İsim" required>
+            <input type="email" name="email" placeholder="E-posta" required>
+            <textarea name="message" placeholder="Mesaj" required></textarea>
+            <button type="submit">Mesaj Gönder</button>
+        </form>
+        <div id="form-message" style="display: none; text-align: center; margin-top: 20px;"></div>
+    </section>
+
+    <!-- Alt Bilgi -->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/AlperSword" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://instagram.com/bnealper" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alper-k-3018b1316/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+        <p>© 2025 Alper Kılıç. Tüm hakları saklıdır.
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
